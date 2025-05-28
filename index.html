@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="Games, E-Sports, Jogos, Luta">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicom.png" type="image/x-icon">
+    <script src="https://cdn.userway.org/widget.js" data-account="2cFK6Jkj1T"></script>
+    <title>Rivalix</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar" aria-label="Menu principal">
+            <div class="logo">
+                <img src="img/logo.png" alt="Logo Rivalix" id="logo-img">
+            </div>
+            <div class="nav-center">
+                <ul class="nav-links">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobrenos">Sobre Nós</a></li>
+                    <li><a href="#informacaos">Informações</a></li>
+                    <li><a href="#cadastro">Pré-Cadastro</a></li>
+                </ul>
+            </div>
+
+            <div class="nav-actions">
+                <div class="theme-switch-wrapper">
+                    <label class="theme-switch" for="checkbox">
+                        <input type="checkbox" id="checkbox" aria-label="Alternar tema">
+                        <div class="slider round"></div>
+                    </label>
+                </div>
+                <div class="hamburger" id="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="pre-registration" id="inicio">
+            <div class="text text-home">
+                <h1>
+                    Prepare-se para elevar seu jogo. Faça seu pré-cadastro agora na Rivalix! 
+                </h1>
+                <div class="cta">
+                    <button type="button">
+                        <a href="#cadastro">Faça seu pré-cadastro!</a>
+                    </button>
+                </div>
+            </div>
+            <div class="pre-registration-image image-home">
+                <img src="./img/globo.png" alt="Globo Temático da Rivalix">
+            </div>
+        </section>
+  
+
+        <section>
+            <div class="container-info about-rivalix" id="sobrenos">
+                <h2>O que é a Rivalix?</h2>
+                <p>A Rivalix é uma plataforma de e-sports voltada para jogos de luta criada para conectar jogadores,
+                    torneios e comunidades em um único espaço. </p>
+                <br>
+                <p>Nosso objetivo é oferecer uma experiência dinâmica, acessível e inovadora, onde a paixão pela competição
+                    e o espírito gamer se encontram.</p>
+                <br>
+                <p>Acreditamos que cada desafio é uma oportunidade de evolução, por isso incentivamos a rivalidade saudável,
+                    a superação de limites e a construção de histórias que inspiram. Mais do que organizar partidas,
+                 seremos o palco onde jogadores se desenvolvem, criam conexões reais e vivem o verdadeiro
+                    significado da competição.</p>
+            </div>
+        </section>
+
+        <section class="top-section" id="informacaos">
+            <h2 class="features-title features-title-effect">
+                Prepare-se Para o <span class="highlight">Topo!</span>
+            </h2>
+
+            <div class="features-grid">
+                <div class="feature-card feature-card-effect">
+                    <img src="./img/simple-icons--applearcade (1).svg" alt="Ícone de mira" class="feature-icon">
+                    <p>Partidas<br>Competitivas</p>
+                </div>
+
+                <div class="feature-card feature-card-effect">
+                    <img src="./img/ranking.svg" alt="Ícone de ranking com estrelas" class="feature-icon">
+                    <p>Jogue por Experiência<br>ou Premiações</p>
+                </div>
+
+                <div class="feature-card feature-card-effect">
+                    <img src="./img/pessoas.svg" alt="Ícone de comunidade" class="feature-icon">
+                    <p>Participe da<br>Comunidade</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="rivalix-videos">
+            <h2 class="videos-title">Sinta a Experiência Rivalix</h2>
+            <p class="subtitulo videos-subtitle"> Se você sente o coração acelerar ao ouvir “Round 1... Fight!”, então você
+                nasceu pra estar aqui. Bem-vindo à Rivalix.</p>
+
+            <div class="video-grid video-card">
+                <video src="img/VideoSobreNos.mp4" autoplay muted loop playsinline></video>
+                <video src="img/Gravação de Tela 2025-05-25 211726.mp4" autoplay muted loop playsinline></video>
+                <video src="img/home-page.mp4" autoplay muted loop playsinline></video>
+            </div>
+        </section>
+
+        <section class="pre-registration-form forms" id="cadastro">
+            <h2>Garanta sua Vaga!</h2>
+            <p>Faça seu pré-cadastro e venha fazer parte da Rivalix!</p>
+
+            <form id="preRegistrationForm" method="POST">
+                <div class="form-group">
+                    <label for="name">Nome completo</label>
+                    <input type="text" id="name" name="name" required placeholder="Digite seu nome">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required placeholder="Digite seu e-mail">
+                </div>
+
+                <div class="form-group">
+                    <label for="interest">O que você deseja fazer na plataforma:</label>
+                    <select id="interest" name="interest" required>
+                        <option value="">Selecione...</option>
+                        <option value="compete">Competir em Torneios</option>
+                        <option value="organize">Organizar Eventos</option>
+                        <option value="two">Organizar Eventos e Competir</option>
+                        <option value="other">Outro</option>
+                    </select>
+                </div>
+
+                <div class="lgpd-wrapper">
+                    <label class="lgpd-consent">
+                        <input type="checkbox" id="termosUso" required>
+                        Eu concordo com o tratamento dos meus dados conforme a <a href="./lgpd.html"
+                            target="_blank">Política de Privacidade</a>.
+                    </label>
+                </div>
+
+                <button type="submit" class="submit-button" id="submitBtn" onclick="">Enviar Pré-Cadastro</button>
+            </form>
+
+            <div class="modal-sucesso" id="modalSucesso">
+                <div class="modal-conteudo">
+                    <p>Obrigado por se inscrever! Assim que a plataforma Rivalix for lançada, você será avisado por e-mail.
+                        🕹️</p>
+                    <button id="fecharModal">Fechar</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="hero-message">
+            <div class="line2 top-line" aria-hidden="true"></div>
+
+            <h1 class="main-message slogan">
+                Criada por jogadores. Movida por paixão. Feita pra comunidade.
+            </h1>
+
+            <div class="line2 bottom-line" aria-hidden="true"></div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-logo">
+                <img src="img/logo.png" alt="Logo Rivalix" id="logoFooter">
+                <p><strong>Criada por jogadores. Movida por paixão. Feita para a comunidade.</strong></p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/rivalix.oficial?igsh=MWUzbGFlOWVuem0yaA=="><img
+                            src="img/instagram.svg" alt="Instagram"></a>
+                    <a href="https://github.com/orgs/RivalixGaming/people"><img src="img/mdi--github.svg"
+                            alt="Github"></a>
+                    <a href="https://x.com/OficialRivalix"><img src="img/prime--twitter.svg" alt="X"></a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <ul>
+                    <li><strong>Rivalix</strong></li>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobrenos">Sobre Nós</a></li>
+                    <li><a href="#informacaos">Informações</a></li>
+                    <li><a href="#cadastro">Pré-Cadastro</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <ul>
+                    <li><strong>Contato</strong></li>
+                    <li>rivalix.oficial@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>©2025 Rivalix. Todos os direitos reservados</p>
+            <ul class="footer-policy">
+                <li><a href="./lgpd.html">Privacidade e Segurança</a></li>
+                <li><a href="#">Mapa do Site</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="./main.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    </div>
+</body>
+
+</html>
