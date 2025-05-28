@@ -16,7 +16,7 @@ function enviarDados() {
     termosUso: termosUso
   };
 
-  fetch('http://localhost:8080/usuarios', {
+  fetch('https://precadastro-rivalix4-56db18aa8f29.herokuapp.com/usuarios', {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
