@@ -8,12 +8,14 @@ function enviarDados() {
   const nomeUsuario = document.getElementById('name').value.trim();
   const emailUsuario = document.getElementById('email').value.trim();
   const termosUso = document.getElementById('termosUso').checked;
+  const interest = document.getElementById('interest').value;
   const modalTexto = document.querySelector("#modalSucesso .modal-conteudo p");
 
   const dados = {
     nome: nomeUsuario,
     email: emailUsuario,
-    termosUso: termosUso
+    termosUso: termosUso,
+    interest: interest
   };
 
   fetch('https://precadastro-rivalix4-56db18aa8f29.herokuapp.com/usuarios', {
