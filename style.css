@@ -11,6 +11,11 @@ html {
     scroll-behavior: smooth;
 }
 
+div[vw-access-button].active {
+    bottom: 60px !important;
+    right: 10px !important;
+}
+
 body {
     color: #e8e5DE;
     overflow-x: hidden;
