@@ -13,7 +13,6 @@ html {
 
 div[vw-access-button].active {
     bottom: 60px !important;
-    right: 10px !important;
 }
 
 body {
